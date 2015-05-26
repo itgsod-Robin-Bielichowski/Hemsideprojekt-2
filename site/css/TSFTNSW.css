@@ -1,19 +1,150 @@
 body {
+    width: 100%;
+    height: 1000px;
 
-    background-color: lightgreen;
+    background-color:#970808 ;
 
 }
 #layout{
     margin: auto;
-    width: 22%;
-    height: 100%;
+    width:700px;
+    height:  600px;
+
 
 }
-#rubrik{
-    width: ;
+#Rubrik{
+    float: left;
+    margin-left: 100px;
+    margin-top: 5px;
+    float: left;
+    background-color: white;
+    border: solid;
+    border-color: black;
+    border-radius: 5px;
 }
 #klickande{
-    margin: auto;
-    width: 22%;
-    
+    margin-top: 10px;
+    float:left;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#klickande2{
+    float: left;
+    margin-left:100px;
+
+
+}
+a:link{
+    color: black;
+    border-style: solid;
+    border-width : 1px 4px 4px 1px;
+    text-decoration : none;
+    padding : 24px;
+    border-color : #69f #00f #00f #69f;
+    transition: .5s;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    border-color:deeppink ;
+    color: deeppink;
+   
+}
+#cf {
+    position:relative;
+    height:281px;
+    width:450px;
+    margin:0 auto;
+    float: left;
+    margin-left: 80px;
+
+}
+
+#cf img {
+    position:absolute;
+    left:0;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+    border-radius: 20px;
+}
+
+#cf img.top:hover {
+    opacity:0;
+}
+#Sidebar{
+    position: fixed;
+    margin-top: 200px;
+    float: left;
+    background-color: white;
+    border: solid;
+    border-color: black;
+    border-radius: 5px;
+    width: 250px;
+    margin-left: -180px;
+
+
+
+}
+#Textandsubmit{
+    margin-left: 350px;
+    margin-top: 20px;
+}
+#Question{
+    margin-left: 350px;
+    margin-top: 20px;
+    margin-top: 10px;
+    float: left;
+    background-color: white;
+    border: solid;
+    border-color: black;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+#kontakt-info{
+    float: left;
+    margin-left: 200px;
+    margin-right: auto;
+    margin-top: 20px;
+    background-color: white;
+    border-color: pink;
+    border-radius: 5px;
+    border-width: 10px;
+    border: solid;
+}
+#kontakt-info p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#Adress_Info{
+    float: left;
+    margin-left: 200px;
+    margin-right: auto;
+    margin-top: 20px;
+    background-color: white;
+    border-color: pink;
+    border-radius: 5px;
+    border: solid;
+}
+#Adress_Info h2{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#Fragor div{
+    margin-top: 10px;
+    float: left;
+    background-color: white;
+    border: solid;
+    border-color: black;
+    border-radius: 5px;
 }
